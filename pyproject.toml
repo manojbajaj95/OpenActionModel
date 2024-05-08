@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "oam"
+version = "0.1.0"
+description = ""
+authors = ["Manoj Bajaj <manojbajaj95@gmail.com>"]
+readme = "README.md"
+package-mode = false
+keywords = ["automation", "AI", "generation", "playwright", "action"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.111.0"
+uvicorn = "^0.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
